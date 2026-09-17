@@ -180,6 +180,15 @@ export const PROFESSORES = {
     background: `url('${ASSETS_BACKGROUNDS_PATH}academia.jpg')`,
     autoClickIntervalo: 100
   },
+  kai_midia: {
+    id: "kai_midia",
+    nome: "Kai do Midia",
+    preco: 40000,
+    bonus: 15,
+    img: ASSETS_PROFESSORES_PATH + "Screenshot_20260917_112641_Instagram.jpg",
+    background: `url('${ASSETS_BACKGROUNDS_PATH}cozinha.jpg')`,
+    autoClickIntervalo: 2800
+  },
 };
 
 export function getProfessor(id) {
